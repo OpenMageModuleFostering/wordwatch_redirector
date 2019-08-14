@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Wordwatch_Redirector>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Wordwatch_Redirector>
+    </modules>
+</config>

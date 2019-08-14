@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+    <name>Wordwatch_Redirector</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.wordwatch.com/resources/terms-of-service/">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Wordwatch Redirector</summary>
+    <description>Wordwatch Redirector - hooks up a link to admin menu, redirecting directly to a WordWatch account</description>
+    <notes>dasdad</notes>
+    <authors>
+      <author>
+        <name>WordWatch</name>
+        <user>WordWatch</user>
+        <email>support@wordwatch.com</email>
+      </author>
+    </authors>
+    <date>2012-03-09</date>
+    <time>15:55:46</time>
+    <contents>
+      <target name="magecommunity">
+        <dir name="Wordwatch">
+          <dir name="Redirector">
+            <dir name="etc">
+              <file name="config.xml" hash="88dccd6de1a371868366e88d2b46e457"/>
+            </dir>
+            <dir name="Block">
+              <dir name="Adminhtml">
+                <file name="Menu.php" hash="68bdb0fae454c94bfac55d680c2c026a"/>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </target>
+      <target name="mageetc">
+        <dir name="modules">
+          <file name="Wordwatch_Redirector.xml" hash="0081029cf02aaffccf8506ef24828c6f"/>
+        </dir>
+      </target>
+    </contents>
+    <compatible/>
+    <dependencies/>
+</package>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Wordwatch_Redirector>
+            <version>1.0.0</version>
+        </Wordwatch_Redirector>
+    </modules>
+    <global>
+        <blocks>
+            <configurable>
+                <class>Wordwatch_Configurable_Block</class>
+            </configurable>
+
+            <adminhtml>
+                <rewrite>
+                    <page_menu>Wordwatch_Redirector_Block_Adminhtml_Menu</page_menu>
+                </rewrite>
+            </adminhtml>
+
+        </blocks>
+    </global>
+</config>

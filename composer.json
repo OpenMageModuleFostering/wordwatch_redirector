@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Wordwatch_Redirector",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Wordwatch Redirector",
+    "authors": [
+    {
+        "name": "WordWatch",
+        "email": "support@wordwatch.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
